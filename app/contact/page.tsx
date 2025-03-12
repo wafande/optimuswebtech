@@ -85,7 +85,7 @@ export default function ContactPage() {
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-600">
                     Contact Information
                   </h2>
-                  <p className="text-white/70">Reach out to us through any of our quantum communication channels.</p>
+                  <p className="text-white/70">Reach out to us through any of our communication channels.</p>
                 </div>
                 <div className="space-y-6">
                   {[
@@ -100,11 +100,11 @@ export default function ContactPage() {
                       title: "Address",
                       content: (
                         <div>
-                          123 Tech Avenue
+                          NAIROBI
                           <br />
-                          San Francisco, CA 94105
+                          NAIROBI, 00100
                           <br />
-                          United States
+                          KENYA
                         </div>
                       ),
                     },
