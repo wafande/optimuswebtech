@@ -170,7 +170,7 @@ export default function AboutPage() {
                   name: "ISAAC NEWTON MUCHINA",
                   role: "CTO & Co-Founder",
                   bio: "ISAAC leads our technical strategy, cybersecurity, development and innovation initiatives, With over 8 years of experience in technology bringing his expertise in neural architecture and cybernetic security systems.",
-                  image: "/isaac.jpg",
+                  image: "/isaac.jpeg",
                 },
                 {
                   name: "CHRIS NJIRU",
