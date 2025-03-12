@@ -167,19 +167,14 @@ export default function AboutPage() {
             <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 mt-12">
               {[
                 {
-                  name: "John Smith",
-                  role: "CEO & Founder",
-                  bio: "With over 20 years of experience in quantum technology leadership, John founded OptimusWebTech with a vision to transform how businesses leverage advanced computing.",
+                  name: "CHRIS NJIRU",
+                  role: "CEO & Co-Founder",
+                  bio: "With over 10 years of experience in technology leadership, CHRIS Co-founded OptimusWebTech with a vision to transform how businesses leverage advanced computing.",
                 },
                 {
-                  name: "Lisa Chen",
-                  role: "CTO",
-                  bio: "Lisa leads our technical strategy and innovation initiatives, bringing her expertise in neural architecture and cybernetic security systems.",
-                },
-                {
-                  name: "David Rodriguez",
-                  role: "Head of Client Services",
-                  bio: "David ensures our clients receive exceptional service and that our solutions align perfectly with their business objectives and future growth trajectories.",
+                  name: "ISAAC NEWTON MUCHINA",
+                  role: "CTO & Co-Founder",
+                  bio: "ISAAC leads our technical strategy and innovation initiatives, bringing her expertise in neural architecture and cybernetic security systems.",
                 },
               ].map((member, index) => (
                 <motion.div
