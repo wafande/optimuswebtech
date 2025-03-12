@@ -166,15 +166,15 @@ export default function AboutPage() {
 
             <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 mt-12">
               {[
+               {
+                  name: "ISAAC NEWTON MUCHINA",
+                  role: "CTO & Co-Founder",
+                  bio: "ISAAC leads our technical strategy and innovation initiatives, With over 5 years of experience in technology bringing his expertise in neural architecture and cybernetic security systems.",
+                },
                 {
                   name: "CHRIS NJIRU",
                   role: "CEO & Co-Founder",
-                  bio: "With over 10 years of experience in technology leadership, CHRIS Co-founded OptimusWebTech with a vision to transform how businesses leverage advanced computing.",
-                },
-                {
-                  name: "ISAAC NEWTON MUCHINA",
-                  role: "CTO & Co-Founder",
-                  bio: "ISAAC leads our technical strategy and innovation initiatives, bringing her expertise in neural architecture and cybernetic security systems.",
+                  bio: "With over 5 years of experience in technology leadership, CHRIS Co-founded OptimusWebTech with a vision to transform how businesses leverage advanced computing.",
                 },
               ].map((member, index) => (
                 <motion.div
