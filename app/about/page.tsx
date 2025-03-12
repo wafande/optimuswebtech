@@ -166,15 +166,17 @@ export default function AboutPage() {
 
             <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 mt-12">
               {[
-               {
+                {
                   name: "ISAAC NEWTON MUCHINA",
                   role: "CTO & Co-Founder",
-                  bio: "ISAAC leads our technical strategy, cybersecurity,development and innovation initiatives, With over 8 years of experience in technology bringing his expertise in neural architecture and cybernetic security systems.",
+                  bio: "ISAAC leads our technical strategy, cybersecurity, development and innovation initiatives, With over 8 years of experience in technology bringing his expertise in neural architecture and cybernetic security systems.",
+                  image: "/isaac.jpg",
                 },
                 {
                   name: "CHRIS NJIRU",
                   role: "CEO & Co-Founder",
                   bio: "With over 5 years of experience in technology leadership, CHRIS Co-founded OptimusWebTech with a vision to transform how businesses leverage advanced computing.",
+                  image: "/chris.jpg",
                 },
               ].map((member, index) => (
                 <motion.div
@@ -192,7 +194,7 @@ export default function AboutPage() {
                           alt={member.name}
                           className="relative rounded-full border border-white/10 bg-black"
                           height="200"
-                          src="/placeholder.svg?height=200&width=200"
+                          src={member.image}
                           style={{
                             aspectRatio: "200/200",
                             objectFit: "cover",
@@ -373,4 +375,3 @@ export default function AboutPage() {
     </div>
   )
 }
-
