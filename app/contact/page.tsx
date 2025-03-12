@@ -281,7 +281,7 @@ export default function ContactPage() {
                         <MapPin className="h-5 w-5 text-cyan-400" />
                       </div>
                     </div>
-                    <div className="text-white text-sm">123 Tech Avenue, San Francisco, CA 94105</div>
+                    <div className="text-white text-sm">NAIROBI, KENYA 00100</div>
                   </div>
                 </div>
               </div>
