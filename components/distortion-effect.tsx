@@ -13,7 +13,7 @@ export function DistortionEffect({
   className = "",
   intensity = 0.2,
   speed = 0.01,
-  imageUrl = "/placeholder.svg?height=600&width=1200",
+  imageUrl = "/optimus1.png?height=600&width=1200",
 }: DistortionEffectProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
 
